@@ -63,6 +63,7 @@ img {
   height: auto;
 }
 .container {
+  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -222,19 +223,14 @@ img {
 }
 .section-two-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
 }
-.section-two-item {
+/* .section-two-item {
   width: calc((100% - 72px) / 4);
-}
+} */
 .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
+  display: none;
 }
 .section-two-title {
   margin-bottom: 8px;
