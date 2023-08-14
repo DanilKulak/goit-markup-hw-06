@@ -177,20 +177,21 @@ overflow: auto;
   border: none;
 }
 .burger-btn-close {
-  display: block;
-  margin-left: auto;
-  margin-bottom: 32px;
+  position: absolute;
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
 }
 .burger-btn-close:focus {
  color: var(--ocean, #404BBF);
 }
 .burger-list {
+  margin-top: 32px;
   margin-bottom: 50px;
 }
 .burger-item:not(:last-child) {
