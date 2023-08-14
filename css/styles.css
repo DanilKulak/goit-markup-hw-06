@@ -500,7 +500,8 @@ letter-spacing: 0.02em;
 }
 .footer .container {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  gap: 72px;
 }
 .footer-container {
   margin-right: 120px;
