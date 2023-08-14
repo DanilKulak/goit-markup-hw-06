@@ -21,10 +21,10 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header">
+    <header class="header"> 
       <div class="container">
         <nav class="list header-nav">
-          <a href="./index.html" class="header-logo-link link list">Web<span class="logo-span">Studio</span>
+          <a class="header-logo-link link list" href="./index.html">Web<span class="logo-span">Studio</span>
           </a>
           <ul class="list header-list">
             <li class="header-menu-item">
@@ -34,21 +34,89 @@
               <a class="link header-menu-link current" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="header-menu-item">
-              <a href="#" class="link header-menu-link">Contacts</a>
+              <a class="link header-menu-link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="address">
-          <ul class="list header-list">
+          <ul class="list header-address-list">
             <li class="header-address-item">
               <a class="link header-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="header-address">
+            <li class="header-address-item">
               <a class="link header-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
+        <button class="burger-btn-open" data-menu-open type="button">
+          <svg width="32" height="32">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
+
+      <!-- Mobail-menu -->
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+        <button class="burger-btn-close" data-menu-close type="button">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+          <ul class="list burger-list">
+            <li class="burger-item">
+              <a class="link burger-link" href="./index.html">Studio</a>
+            </li>
+            <li class="burger-item">
+              <a class="link burger-link active" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="burger-item">
+              <a class="link burger-link" href="#">Contacts</a>
+            </li>
+          </ul>
+          </div>
+        <div class="burger-address">
+          <ul class="list burger-address-list">
+            <li class="burger-address-item">
+              <a class="link burger-address-link" href="tel:+110001111111"><span>+11 (000) 111-11-11</span></a>
+            </li>
+            <li class="burger-address-item">
+              <a class="link burger-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="burger-icon-list">
+          <li class="burger-icon-item">
+            <a class="burger-icon-link" href="#">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+            </a>
+          </li>
+          <li class="burger-icon-item">
+            <a class="burger-icon-link" href="#">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+            </a>
+          </li>
+          <li class="burger-icon-item">
+            <a class="burger-icon-link" href="#">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+            </a>
+          </li>
+          <li class="burger-icon-item">
+            <a class="burger-icon-link" href="#">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+            </a>
+          </li>
+        </ul>
+        </div>
     </header>
     <!-- Main -->
     <main>
@@ -281,5 +349,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

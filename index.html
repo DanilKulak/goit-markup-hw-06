@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- Header -->
-    <!-- <header class="header">
+ <header class="header"> 
       <div class="container">
         <nav class="list header-nav">
           <a class="header-logo-link link list" href="./index.html">Web<span class="logo-span">Studio</span>
@@ -39,7 +39,7 @@
           </ul>
         </nav>
         <address class="address">
-          <ul class="list header-list">
+          <ul class="list header-address-list">
             <li class="header-address-item">
               <a class="link header-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
@@ -48,19 +48,87 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn-open" data-menu-open type="button">
+          <svg width="32" height="32">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+
+      <!-- Mobail-menu -->
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+        <button class="burger-btn-close" data-menu-close type="button">
+          <svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+          <ul class="list burger-list">
+            <li class="burger-item">
+              <a class="link burger-link active" href="./index.html">Studio</a>
+            </li>
+            <li class="burger-item">
+              <a class="link burger-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="burger-item">
+              <a class="link burger-link" href="#">Contacts</a>
+            </li>
+          </ul>
+          </div>
+        <div class="burger-address">
+          <ul class="list burger-address-list">
+            <li class="burger-address-item">
+              <a class="link burger-address-link" href="tel:+110001111111"><span>+11 (000) 111-11-11</span></a>
+            </li>
+            <li class="burger-address-item">
+              <a class="link burger-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="burger-icon-list">
+          <li class="burger-icon-item">
+            <a class="burger-icon-link" href="#">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+            </a>
+          </li>
+          <li class="burger-icon-item">
+            <a class="burger-icon-link" href="#">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+            </a>
+          </li>
+          <li class="burger-icon-item">
+            <a class="burger-icon-link" href="#">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+            </a>
+          </li>
+          <li class="burger-icon-item">
+            <a class="burger-icon-link" href="#">
+            <svg class="burger-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+            </a>
+          </li>
+        </ul>
+        </div>
+    </header>
     <!-- Main -->
     <main class="main">
       <!-- Section-1 -->
-      <!-- <section class="section-one">
+      <section class="section-one">
         <div class="container">
-          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <h1 class="main-title">Effective Solutions <br> for Your Business</h1>
           <button class="text-btn header-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- Section-2 -->
       <section class="section-two">
         <div class="container">
@@ -135,7 +203,7 @@
         </div>
       </section>
       <!-- Section-4 -->
-      <!-- <section class="section-team">
+    <section class="section-team">
         <div class="container">
           <h2 class="main-title-text">Our Team</h2>
           <ul class="section-team-list list">
@@ -289,9 +357,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!---Section-5--->
-      <!-- <section class="section-five">
+      <section class="section-five">
         <div class="container">
           <h2 class="title-five">Customers</h2>
           <ul class="clients-list">
@@ -339,7 +407,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- Footer -->
     <!-- <footer class="footer">
@@ -452,5 +520,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

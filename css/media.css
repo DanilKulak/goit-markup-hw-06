@@ -1,17 +1,53 @@
-@media screen and (min-width: 428px) {
-    .container {
-        max-width: 398px;
+@media screen and (min-width: 320px) {
+    .section-three {
+        display: none;
     }
 }
 
+
+@media screen and (min-width: 428px) {
+    .container {
+    max-width: 398px;
+    }
+    .section-two {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    }
+    .section-three {
+ display: none;
+}
+.section-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.clients-item {
+  width: calc((100% - 120px) / 2);
+}
+}
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 738px;
     }
+    .burger-btn-open {
+      display: none;
+    }
+    .header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+    }
+    .header-address-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: end;
+    }
+    .main-title {
+    font-size: 56px;
+    }
 .section-two {
-padding-top: 96px;
-padding-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 .section-two-list {
     padding: 0;
@@ -22,6 +58,19 @@ padding-bottom: 96px;
 .section-two-title {
     text-align: left;
 }
+.section-three {
+ display: none;
+}
+.section-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.section-team-list {
+    gap: 64px 24px;
+}
+.clients-item {
+  width: calc((100% - 120px) / 3);
+}
 }
 
 
@@ -29,9 +78,28 @@ padding-bottom: 96px;
     .container {
         max-width: 1158px;
     }
+    .burger-btn-open {
+      display: none;
+    }
+    .header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+    }
+    .header-address-list {
+      display: flex;
+  align-items: center;
+  gap: 40px;
+    }
+    .main-title {
+    font-size: 56px;
+    }
     .section-two {
   background: #fff;
   padding: 120px 0;
+}
+.section-two-list {
+    gap: 24px;
 }
     .section-two-item {
   width: calc((100% - 72px) / 4);
@@ -44,5 +112,18 @@ padding-bottom: 96px;
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+}
+.section-three {
+ display: flex;
+}
+.section-team {
+  padding: 120px 0;
+  text-align: center;
+}
+.section-five {
+  padding: 120px 0;
+} 
+.clients-item {
+  width: calc((100% - 120px) / 6);
 }
 }
