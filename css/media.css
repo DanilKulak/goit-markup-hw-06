@@ -75,6 +75,28 @@
 .clients-item {
   width: calc((100% - 120px) / 3);
 }
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  gap: 72px 24px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.footer-container {
+  margin: 0;
+}
+.footer-logo {
+  margin-left: 0;
+}
+.footer-paragraph {
+  text-align: left;
+}
+.paragraph-form {
+  text-align: left;
+}
+.footer-frame {
+  flex-direction: row;
+}
 }
 
 @media screen and (min-width: 1158px) {
@@ -127,14 +149,22 @@
   padding: 120px 0;
 } 
 .clients-item {
+  width: 168px;
+  height: 88px;
   width: calc((100% - 120px) / 6);
 }
 .footer .container {
 display:flex;
 flex-direction: row;
 }
+.footer-container {
+  margin-right: 120px;
+}
 .footer-logo {
   margin-left: 0;
+}
+.footer-icons {
+  margin-right: 30px;
 }
 .footer-frame {
   flex-direction: row;
