@@ -76,23 +76,6 @@
   width: calc((100% - 120px) / 3);
 }
 }
-.footer .container {
-display:flex;
-flex-direction: row;
-}
-.footer-logo {
-  margin-left: 0;
-}
-.footer-frame {
-  flex-direction: row;
-  gap: 24px;
-}
-.footer-paragraph {
-  text-align: left;
-}
-.paragraph-form {
-  text-align: left;
-}
 
 @media screen and (min-width: 1158px) {
     .container {
