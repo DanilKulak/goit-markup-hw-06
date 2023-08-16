@@ -93,10 +93,10 @@
 .footer .container {
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
   gap: 72px 24px;
   flex-wrap: wrap;
   align-items: flex-start;
+  padding-left: 100px;
 }
 .footer-container {
   margin: 0;
@@ -179,6 +179,7 @@
 .footer .container {
 display:flex;
 flex-direction: row;
+padding: 0;
 }
 .footer-container {
   margin-right: 120px;

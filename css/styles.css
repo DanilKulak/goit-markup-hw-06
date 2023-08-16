@@ -186,6 +186,9 @@ overflow: auto;
   right: 24px;
   width: 24px;
   height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .burger-btn-close:focus {
  color: var(--ocean, #404BBF);
@@ -213,6 +216,9 @@ text-transform: capitalize;
 }
 .active {
 color: var(--ocean, #404BBF);
+}
+.burger-address {
+  margin-top: auto;
 }
 .burger-address-item {
    margin-bottom: 40px;
