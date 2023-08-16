@@ -44,6 +44,8 @@
     .header-address-list {
       display: flex;
       flex-wrap: wrap;
+      gap: 12px;
+      padding: 16px 0;
       justify-content: end;
     }
     .main-title {
@@ -54,7 +56,7 @@
     padding-bottom: 96px;
 }
 .section-two-list {
-    padding: 0;
+  gap: 72px 24px;
 }
     .section-two-item {
   width: calc((100% - 72px) / 2);
@@ -71,6 +73,9 @@
 }
 .section-team-list {
     gap: 64px 24px;
+}
+.clients-list {
+  gap: 72px 24px;
 }
 .clients-item {
   width: calc((100% - 120px) / 3);
