@@ -113,7 +113,7 @@ img {
   color: var(--navyblue, #2e2f42);
   font-family: var(--font-primary);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -146,7 +146,7 @@ img {
 .header-address-item {
   color: var(--slate, #434455);
   font-family: var(--font-primary);
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -332,9 +332,6 @@ letter-spacing: 0.02em;
   flex-wrap: wrap;
   gap: 72px;
 }
-/* .section-two-item {
-  width: calc((100% - 72px) / 4);
-} */
 .icon {
   display: none;
 }
