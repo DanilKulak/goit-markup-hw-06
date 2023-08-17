@@ -17,22 +17,25 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-      <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <!-- Header -->
-    <header class="header"> 
+    <header class="header">
       <div class="container">
         <nav class="list header-nav">
-          <a class="header-logo-link link list" href="./index.html">Web<span class="logo-span">Studio</span>
+          <a class="header-logo-link link list" href="./index.html"
+            >Web<span class="logo-span">Studio</span>
           </a>
           <ul class="list header-list">
             <li class="header-menu-item">
               <a class="link header-menu-link" href="./index.html">Studio</a>
             </li>
             <li class="header-menu-item">
-              <a class="link header-menu-link current" href="./portfolio.html">Portfolio</a>
+              <a class="link header-menu-link current" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="header-menu-item">
               <a class="link header-menu-link" href="#">Contacts</a>
@@ -42,10 +45,16 @@
         <address class="address">
           <ul class="list header-address-list">
             <li class="header-address-item">
-              <a class="link header-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a
+                class="link header-address-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
             <li class="header-address-item">
-              <a class="link header-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="link header-address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
         </address>
@@ -60,64 +69,72 @@
 
       <div class="mob-menu is-hidden" data-menu>
         <div>
-        <button class="burger-btn-close" data-menu-close type="button">
-          <svg width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-          </svg>
-        </button>
+          <button class="burger-btn-close" data-menu-close type="button">
+            <svg width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+          </button>
           <ul class="list burger-list">
             <li class="burger-item">
               <a class="link burger-link" href="./index.html">Studio</a>
             </li>
             <li class="burger-item">
-              <a class="link burger-link active" href="./portfolio.html">Portfolio</a>
+              <a class="link burger-link active" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="burger-item">
               <a class="link burger-link" href="#">Contacts</a>
             </li>
           </ul>
-          </div>
+        </div>
         <div class="burger-address">
           <ul class="list burger-address-list">
             <li class="burger-address-item">
-              <a class="link burger-address-link" href="tel:+110001111111"><span>+11 (000) 111-11-11</span></a>
+              <a class="link burger-address-link" href="tel:+110001111111"
+                ><span>+11 (000) 111-11-11</span></a
+              >
             </li>
             <li class="burger-address-item">
-              <a class="link burger-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a
+                class="link burger-address-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
           </ul>
         </div>
         <ul class="burger-icon-list">
           <li class="burger-icon-item">
             <a class="burger-icon-link" href="#">
-            <svg class="burger-svg" width="24" height="24">
-              <use href="./images/icons.svg#icon-instagram-2"></use>
-            </svg>
+              <svg class="burger-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
             </a>
           </li>
           <li class="burger-icon-item">
             <a class="burger-icon-link" href="#">
-            <svg class="burger-svg" width="24" height="24">
-              <use href="./images/icons.svg#icon-twitter-1"></use>
-            </svg>
+              <svg class="burger-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
             </a>
           </li>
           <li class="burger-icon-item">
             <a class="burger-icon-link" href="#">
-            <svg class="burger-svg" width="24" height="24">
-              <use href="./images/icons.svg#icon-facebook-1"></use>
-            </svg>
+              <svg class="burger-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
             </a>
           </li>
           <li class="burger-icon-item">
             <a class="burger-icon-link" href="#">
-            <svg class="burger-svg" width="24" height="24">
-              <use href="./images/icons.svg#icon-linkedin-1"></use>
-            </svg>
+              <svg class="burger-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
             </a>
           </li>
         </ul>
-        </div>
+      </div>
     </header>
     <!-- Main -->
     <main>
@@ -148,10 +165,28 @@
               <a href="#" class="link portfolio-cards">
                 <div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-1-1x.jpg 1x, ./images/img.portfolio/img-desktop-1-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-1-1x.jpg 1x, ./images/img.portfolio/img-tab-1-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-1-1x.jpg 1x, ./images/img.portfolio/img-mob-1-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-1-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-1-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-1-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-1-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-1-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-1-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/img-docs.jpg" alt="photo" width="396" />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -169,10 +204,32 @@
               <a href="#" class="link portfolio-cards">
                 <div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-2-1x.jpg 1x, ./images/img.portfolio/img-desktop-2-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-2-1x.jpg 1x, ./images/img.portfolio/img-tab-2-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-2-1x.jpg 1x, ./images/img.portfolio/img-mob-2-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs-2.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-2-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-2-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-2-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-2-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-2-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-2-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/img-docs-2.jpg"
+                      alt="photo"
+                      width="396"
+                    />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -190,10 +247,32 @@
               <a href="#" class="link portfolio-cards">
                 <div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-3-1x.jpg 1x, ./images/img.portfolio/img-desktop-3-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-3-1x.jpg 1x, ./images/img.portfolio/img-tab-3-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-3-1x.jpg 1x, ./images/img.portfolio/img-mob-3-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs-3.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-3-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-3-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-3-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-3-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-3-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-3-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/img-docs-3.jpg"
+                      alt="photo"
+                      width="396"
+                    />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -211,10 +290,32 @@
               <a href="#" class="link portfolio-cards"
                 ><div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-4-1x.jpg 1x, ./images/img.portfolio/img-desktop-4-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-4-1x.jpg 1x, ./images/img.portfolio/img-tab-4-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-4-1x.jpg 1x, ./images/img.portfolio/img-mob-4-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs-4.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-4-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-4-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-4-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-4-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-4-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-4-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/img-docs-4.jpg"
+                      alt="photo"
+                      width="396"
+                    />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -232,10 +333,32 @@
               <a href="#" class="link portfolio-cards"
                 ><div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-5-1x.jpg 1x, ./images/img.portfolio/img-desktop-5-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-5-1x.jpg 1x, ./images/img.portfolio/img-tab-5-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-5-1x.jpg 1x, ./images/img.portfolio/img-mob-5-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs-5.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-5-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-5-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-5-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-5-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-5-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-5-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/img-docs-5.jpg"
+                      alt="photo"
+                      width="396"
+                    />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -247,16 +370,38 @@
                   <h2 class="portfolio-title">Screen Illustrations</h2>
                   <p class="portfolio-paragraph">Design</p>
                 </div>
-                </a>
+              </a>
             </li>
             <li class="img-portfolio">
               <a href="#" class="link portfolio-cards"
                 ><div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-6-1x.jpg 1x, ./images/img.portfolio/img-desktop-6-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-6-1x.jpg 1x, ./images/img.portfolio/img-tab-6-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-6-1x.jpg 1x, ./images/img.portfolio/img-mob-6-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs-6.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-6-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-6-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-6-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-6-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-6-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-6-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/img-docs-6.jpg"
+                      alt="photo"
+                      width="396"
+                    />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -268,16 +413,38 @@
                   <h2 class="portfolio-title">Online Courses</h2>
                   <p class="portfolio-paragraph">Marketing</p>
                 </div>
-                </a>
+              </a>
             </li>
             <li class="img-portfolio">
               <a href="#" class="link portfolio-cards">
                 <div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-7-1x.jpg 1x, ./images/img.portfolio/img-desktop-7-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-7-1x.jpg 1x, ./images/img.portfolio/img-tab-7-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-7-1x.jpg 1x, ./images/img.portfolio/img-mob-7-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs-7.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-7-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-7-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-7-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-7-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-7-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-7-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/img-docs-7.jpg"
+                      alt="photo"
+                      width="396"
+                    />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -289,16 +456,38 @@
                   <h2 class="portfolio-title">Instagram Stories Concept</h2>
                   <p class="portfolio-paragraph">Design</p>
                 </div>
-                </a>
+              </a>
             </li>
             <li class="img-portfolio">
               <a href="#" class="link portfolio-cards">
                 <div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-8-1x.jpg 1x, ./images/img.portfolio/img-desktop-8-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-8-1x.jpg 1x, ./images/img.portfolio/img-tab-8-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-8-1x.jpg 1x, ./images/img.portfolio/img-mob-8-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs-8.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-8-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-8-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-8-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-8-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-8-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-8-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/img-docs-8.jpg"
+                      alt="photo"
+                      width="396"
+                    />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -310,16 +499,38 @@
                   <h2 class="portfolio-title">Organic Food</h2>
                   <p class="portfolio-paragraph">Web Site</p>
                 </div>
-                </a>
+              </a>
             </li>
             <li class="img-portfolio">
               <a href="#" class="link portfolio-cards">
                 <div class="container-img-portfolio">
                   <picture>
-                    <source srcset="./images/img.portfolio/img-desktop-9-1x.jpg 1x, ./images/img.portfolio/img-desktop-9-2x.jpg 2x" media="(min-width: 1158px)">
-                    <source srcset="./images/img.portfolio/img-tab-9-1x.jpg 1x, ./images/img.portfolio/img-tab-9-2x.jpg 2x" media="(min-width: 768px)">
-                    <source srcset="./images/img.portfolio/img-mob-9-1x.jpg 1x, ./images/img.portfolio/img-mob-9-2x.jpg 2x" media="(min-width: 320px)">
-                    <img src="./images/img-docs-9.jpg" alt="photo" width="396">
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-desktop-9-1x.jpg 1x,
+                        ./images/img.portfolio/img-desktop-9-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-tab-9-1x.jpg 1x,
+                        ./images/img.portfolio/img-tab-9-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/img.portfolio/img-mob-9-1x.jpg 1x,
+                        ./images/img.portfolio/img-mob-9-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/img-docs-9.jpg"
+                      alt="photo"
+                      width="396"
+                    />
                   </picture>
                   <p class="text-new-portfolio">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -337,6 +548,7 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
@@ -355,43 +567,50 @@
               <a class="footer-link" href="#">
                 <svg width="24" height="24" class="svg-footer">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
-                  </svg>
-                </a>
+                </svg>
+              </a>
             </li>
             <li class="footer-item">
               <a class="footer-link" href="#">
                 <svg width="24" height="24" class="svg-footer">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
-                  </svg>
-                </a>
+                </svg>
+              </a>
             </li>
             <li class="footer-item">
               <a class="footer-link" href="#">
                 <svg width="24" height="24" class="svg-footer">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
-                  </svg>
-                </a>
+                </svg>
+              </a>
             </li>
             <li class="footer-item">
               <a class="footer-link" href="#">
                 <svg width="24" height="24" class="svg-footer">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
-                  </svg>
-                </a>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
         <div class="container-form">
-        <p class="paragraph-form">Subscribe</p>
-        <form class="footer-frame">
-          <label class="footer-label" for="user-email">
-            <input class="footer-input" name="user-email" type="email" placeholder="E-mail" id="user-email">
-          </label>
-          <button class="footer-btn" type="submit">Subscribe<svg class="svg-subscribe" width="24" height="24">
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
-          </button>
-        </form>
+          <p class="paragraph-form">Subscribe</p>
+          <form class="footer-frame">
+            <label class="footer-label" for="user-email">
+              <input
+                class="footer-input"
+                name="user-email"
+                type="email"
+                placeholder="E-mail"
+                id="user-email"
+              />
+            </label>
+            <button class="footer-btn" type="submit">
+              Subscribe<svg class="svg-subscribe" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
